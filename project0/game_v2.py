@@ -1,4 +1,4 @@
-""" Guess number game
+""" 'Guess number' game
 Computer will uess the number by itself"""
 
 import numpy as np
