@@ -4,7 +4,7 @@ Computer will uess the number by itself"""
 import numpy as np
 
 def random_predict(number:int=1) -> int:
-    """Gues the number using random
+    """Guessing the number using random
 
     Args:
         number (int, optional): Number we need to guess. Defaults to 1.
@@ -21,6 +21,7 @@ def random_predict(number:int=1) -> int:
             break # exiting "while" if computer guessed the number
         
     return(count)
+    
 
 def score_game(random_predict) -> int:
     """Average amount of tries we need to guess the number (we have 1000 nubers to guess)
@@ -40,6 +41,7 @@ def score_game(random_predict) -> int:
         
     score = int(np.mean(count_lst))
     print(f"Average amount of tries for algorithm to guess the number - {score}")
+    
     return(score)
 
 if __name__ == '__main__':
