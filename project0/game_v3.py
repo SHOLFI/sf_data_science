@@ -10,7 +10,6 @@ def half_cut_predict(number:int=1) -> int:
     in direction of the number we need to guess.
     For this example our way will be: 50 - 25 - 37 - 31 - 28 - 29 - 30
     
-    
     Args:
         number (int, optional): Number we need to guess. Defaults to 1.
 
